@@ -1,32 +1,13 @@
 {
   "files.autoSave": "afterDelay",
+  "eslint.autoFixOnSave": true,
+  "files.eol": "\n",
   "html.format.wrapAttributes": "force-aligned",
+  "prettier.eslintIntegration": true,
   "editor.formatOnSave": true,
   "beautify.language": {
-    "js": {
-      "type": [
-        "javascript",
-        "json",
-        "ts"
-      ],
-      "filename": [
-        ".jshintrc",
-        ".jsbeautifyrc"
-      ]
-      // "ext": ["js", "json"]
-      // ^^ to set extensions to be beautified using the javascript beautifier
-    },
-    "css": [
-      "css",
-      "scss"
-    ],
-    "html": [
-      "htm",
-      "html"
-    ],
-    "ts": [
-      "ts"
-    ]
-    // ^^ providing just an array sets the VS Code file type
+    "html": ["html", "php", "erb"],
+    "css": [],
+    "js": []
   }
 }
