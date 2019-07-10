@@ -3,7 +3,6 @@ import { WelcomeComponent } from './home/welcome.component';
 import { RouterModule } from '@angular/router';
 
 @NgModule({
-  declarations: [],
   imports: [
     RouterModule.forRoot([
       { path: 'welcome', component: WelcomeComponent },
